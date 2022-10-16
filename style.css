@@ -1,0 +1,254 @@
+.cl{
+    height: 100%;
+    width:100%;
+    /*background-color:#FFE6E6;*/ 
+    background-image: url(../Tema/color.jpeg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color:black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor:pointer;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    font-size: 20px;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+
+
+.content{
+    margin:auto;
+    background-color: #F2D1D1;
+    align-items: center;
+    padding:2% 2%;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+#stud{
+    font-family: 'Lato', sans-serif;
+    text-align:center;
+    font-size: medium;
+}
+
+@media (max-width:700px){
+    .me h2{
+        font-size: 14px;
+    }
+}
+
+.me {
+    background-color: #DAEAF1;
+    margin: auto;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.me h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.me img{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 300px;
+    height:auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-color:aqua;
+    border: 6px solid;
+}
+
+span{
+    color: red;
+}
+
+#me{
+    text-align: center;
+    font-size:13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.puncte{
+    text-align: center;
+}
+
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.Skills
+{
+    background-color: #C6DCE4;
+    padding: 1% 2%;
+    margin: auto;
+    align-items: center;
+}
+
+.Skills h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Skills img{
+    height: 55px;
+    border-radius: 50%;
+    display: block;
+    margin-top: auto;
+    border-color:black;
+    border: 6px solid;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+
+h4{
+    color:cornflowerblue;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#sql{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: -10px;
+}
+
+h5{
+    color:cornflowerblue;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#another{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: -20px;
+}
+
+.touch{
+    background-color:#8AC4D0;
+    padding: 5% 2% 5% 2%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.touch h6{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 15px;
+
+}
+
+.touch a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: transparent;
+    font-size: 15px;
+    border-radius: 30px;
+    border:3px black solid;
+    cursor: pointer;
+    text-align: center;
+    padding: 9px 13px;
+    margin-top: 20px;
+}
+
+.touch a:hover{
+    border:1px solid #F44336;
+    background: #F44336;
+    transition: 1s;
+}
+
+.footer{
+    background-color:#7FBCD2;
+    padding: 50px 0px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.footer h7{
+   font-size: 13px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bold;
+   text-align: center;
+   color: black;
+} 
+
+.footer a{
+    margin-left: 20px;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.footer h9{
+    margin-left: 20px;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+#subsol{
+    text-align: center;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 7px;
+}
+
+
+
+
+
